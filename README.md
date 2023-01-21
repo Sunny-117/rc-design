@@ -8,6 +8,8 @@
 
 ## 设计原则
 
+[code](./src/example/design-principles/)
+
 ## 工厂模式
 
 ## 单例模式
