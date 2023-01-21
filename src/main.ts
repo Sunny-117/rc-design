@@ -1,1 +1,1 @@
-export const a = 1;
+import './example/object-oriented'
