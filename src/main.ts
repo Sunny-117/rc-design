@@ -1,1 +1,1 @@
-import './example/object-oriented/object-oriented'
+import './example/object-oriented'

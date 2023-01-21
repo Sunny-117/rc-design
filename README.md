@@ -4,7 +4,7 @@
 
 ## 面向对象(不是那个对象)
 
-[code](./src/example/object-oriented/inherit.ts)
+[code](./src/example/object-oriented/index.ts)
 
 ## 设计原则
 
