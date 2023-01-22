@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:factory-mode": "cd src/example && cd factory-mode && npm run dev",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },

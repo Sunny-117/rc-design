@@ -12,6 +12,8 @@
 
 ## 工厂模式
 
+[code](./src/example/factory-mode/)
+
 ## 单例模式
 
 ## 适配器模式
