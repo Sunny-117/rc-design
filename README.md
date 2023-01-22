@@ -21,3 +21,11 @@
 ## 观察者模式
 
 [code](./src/example/observer/)
+
+## 外观模式
+
+[code](./src/example/appearance-mode/)
+
+## 装饰器模式
+
+[code](./src/example/decorator/)
