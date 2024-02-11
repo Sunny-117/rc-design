@@ -1,0 +1,48 @@
+@import '../../style/themes/variable.less';
+@import './mixins.less';
+
+.alt-main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alert {
+  position: unset;
+  z-index: 999;
+  padding: @alt-padding-y @alt-padding-x;
+  padding-right: 1rem;
+  margin: 1rem;
+  min-width: 60px;
+  border-color: @primary;
+  border-style: solid;
+  font-size: @font-size-base;
+  border-radius: @border-radius-lg;
+
+  .content {
+    margin: 0.275em 20px 0.275em 0;
+  }
+
+  .quit {
+    font-size: 12px;
+    float: right;
+    cursor: pointer;
+  }
+}
+
+.alt-success {
+  .alt-style(@success,@success,@bg-success);
+}
+
+.alt-danger {
+  .alt-style(@danger,@danger,@bg-danger);
+}
+
+.alt-info {
+  .alt-style(@info,@info,@bg-info);
+}
+
+.alt-warning {
+  .alt-style(@warning,@warning,@bg-warning);
+}

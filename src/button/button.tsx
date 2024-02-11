@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import React, { FC } from 'react';
+import React, { FC, PropsWithChildren } from 'react';
 
 const getChildren = (children: React.ReactNode) => {
   if (typeof children === 'string') {
@@ -29,7 +29,6 @@ interface BaseButtonProps {
   className?: string;
   href?: string;
   icon?: React.ReactNode;
-  children?: React.ReactNode;
 }
 
 type NativeButtonProps = {
@@ -47,7 +46,7 @@ type AnchorButtonProps = {
 
 export type ButtonProps = Partial<NativeButtonProps & AnchorButtonProps>;
 
-const Button: FC<ButtonProps> = ({
+const Button: FC<PropsWithChildren<ButtonProps>> = ({
   type,
   htmlType,
   size,
