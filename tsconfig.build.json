@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "ESNext",
+    "target": "ES5",
+    "declaration": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "jsx": "react",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "skipLibCheck": true,
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "rc-design": ["src"],
+      "rc-design/*": ["src/*", "*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "typings","src/tests","src/*/__tests__/**"]
+}
