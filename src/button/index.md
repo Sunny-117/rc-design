@@ -17,6 +17,10 @@ nav:
 
 <code src="./demos/size.tsx"></code>
 
+## 不可用状态
+
+<code src="./demos/disabled.tsx"></code>
+
 ## 事件
 
 <code src="./demos/event.tsx"></code>

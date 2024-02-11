@@ -14,8 +14,8 @@ export default defineConfig({
     // entryFile: './src/index.tsx', //这里是API表格解析入口
   },
   // favicons: ['./logo.png'],
-  // base: '/rc-design',
-  // publicPath: '/',
+  base: '/rc-design/',
+  publicPath: '/rc-design/',
   // exportStatic: {},
   alias: {
     'rc-design': path.resolve(__dirname, 'src'),

@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import React, { FC } from 'react';
 
-const isString = (children: React.ReactNode) => {
+const getChildren = (children: React.ReactNode) => {
   if (typeof children === 'string') {
     return <span>{children}</span>;
   }
@@ -72,7 +72,7 @@ const Button: FC<ButtonProps> = ({
     );
   }
 
-  const kids = isString(children);
+  const childToRender = getChildren(children);
 
   return (
     <button
@@ -81,7 +81,7 @@ const Button: FC<ButtonProps> = ({
       disabled={disabled}
       {...restProps}
     >
-      {kids}
+      {childToRender}
     </button>
   );
 };

@@ -9,7 +9,7 @@ export default () => (
     <Button type="danger">危险按钮</Button>
     <Button type="warning">警告按钮</Button>
     <Button type="dashed">虚线按钮</Button>
-    <Button type="link" href="https://www.baidu.com">
+    <Button type="link" target="_black" href="https://www.baidu.com">
       链接按钮
     </Button>
     <Button type="text">文本按钮</Button>
