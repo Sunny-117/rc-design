@@ -1,0 +1,116 @@
+@form-prefix-cls: ~'ci-form';
+@form-item-prefix-cls:~'@{form-prefix-cls}-item';
+
+
+.@{form-prefix-cls}{
+  .reset();
+
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  // gap:20px;
+
+
+  // ================================================================
+  // =                             layout                           =
+  // ================================================================
+  &-vertical{
+    .@{form-item-prefix-cls}{
+      display: block;
+    }
+  }
+
+  &-inline{
+    // .@{form-item-prefix-cls}{
+    //   display: inline-flex;
+    // }
+    flex-direction: row;
+    align-items: center;
+
+    &>div {
+      display: flex;
+      align-items: center;
+      gap:10px;
+    }
+  }
+
+  // ================================================================
+  // =                             item                             =
+  // ================================================================
+  &-item{
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+
+    &-content{
+      flex:1;
+      display: flex;
+      justify-content: center;
+    }
+
+    &-label{
+      display: inline-block;
+      margin-right: .5em;
+
+      &-required::before{
+        display: inline-block;
+        margin-inline-end: 4px;
+        color: @danger;
+        font-size: 14px;
+        font-family: SimSun,sans-serif;
+        line-height: 1;
+        content: "*"
+      }
+    }
+  }
+  // ================================================================
+  // =                             status                           =
+  // ================================================================
+  &-required{
+    color:@danger;
+    vertical-align: middle;
+    line-height: 1em;
+  }
+
+    // ================================================================
+  // =                             size                             =
+  // ================================================================
+
+  .formSize(@fontSize) {
+    .@{form-item-prefix-cls}{
+      font-size: @fontSize !important;
+    }
+  }
+
+  &-small {
+    .formSize(@font-size-sm);
+  }
+
+  &-large {
+    .formSize(@font-size-lg);
+  }
+
+}
+
+.reset{
+    margin: 0;
+    padding:0;
+    line-height:inherit;
+    vertical-align: middle;
+    color:inherit;
+    background-color: transparent;
+    box-shadow: none;
+    appearance: none;
+    border:0;
+    outline:0;
+    border-radius:0;
+    resize: none;
+}
+
+.ci-error-list{
+  height: 16px;
+  font-size: 14px;
+  line-height: 16px;
+  color:@danger;
+  transition: all .5s;
+}
