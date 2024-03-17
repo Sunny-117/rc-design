@@ -17,7 +17,7 @@
     "build:watch": "father dev",
     "clean": "",
     "commit": "cz",
-    "deploy": "gh-pages -d docs-dist",
+    "deploy": "npm run build && npm run docs:build && gh-pages -d docs-dist",
     "dev": "dumi dev",
     "docs:build": "dumi build",
     "doctor": "father doctor",
