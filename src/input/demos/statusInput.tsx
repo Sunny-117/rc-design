@@ -1,4 +1,4 @@
-import { Input } from 'rc-design';
+import { Input } from '@rc-design/core';
 import React from 'react';
 
 const App = () => {

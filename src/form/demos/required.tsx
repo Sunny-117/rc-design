@@ -1,4 +1,4 @@
-import { Form, Input } from 'rc-design';
+import { Form, Input } from '@rc-design/core';
 import * as React from 'react';
 function Required() {
   return (

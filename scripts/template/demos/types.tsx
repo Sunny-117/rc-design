@@ -1,4 +1,4 @@
-import { Template } from 'rc-design';
+import { Template } from '@rc-design/core';
 import React from 'react';
 
 export default () => (

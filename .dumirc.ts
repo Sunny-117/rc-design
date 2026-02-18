@@ -18,6 +18,6 @@ export default defineConfig({
   publicPath: '/rc-design/',
   // exportStatic: {},
   alias: {
-    'rc-design': path.resolve(__dirname, 'src'),
+    '@rc-design/core': path.resolve(__dirname, 'src'),
   },
 });

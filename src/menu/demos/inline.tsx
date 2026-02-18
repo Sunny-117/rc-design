@@ -1,5 +1,5 @@
-import type { MenuProps } from 'rc-design';
-import { Menu } from 'rc-design';
+import type { MenuProps } from '@rc-design/core';
+import { Menu } from '@rc-design/core';
 import React from 'react';
 
 type MenuItem = Required<MenuProps>['items'][number];

@@ -1,4 +1,4 @@
-import { Breadcrumb } from 'rc-design';
+import { Breadcrumb } from '@rc-design/core';
 import React from 'react';
 // import BreadcrumbItem from '../breadcrumbitem';
 

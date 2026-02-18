@@ -1,4 +1,4 @@
-import { Button, Form, Input } from 'rc-design';
+import { Button, Form, Input } from '@rc-design/core';
 import * as React from 'react';
 function No_Style() {
   const onFinish = (value: any) => {

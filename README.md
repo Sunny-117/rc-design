@@ -9,12 +9,7 @@ rc-design，是一款为 react 开发的组件库，为开发者提供更轻量�
 ### 下载安装
 
 ```shell
-# npm
-npm install rc-design
-# yarn
-yarn add rc-design
-# pnpm
-pnpm i rc-design
+npm install @rc-design/core
 ```
 
 ### 如何引入
@@ -22,7 +17,7 @@ pnpm i rc-design
 请务必注意，rc-design 目前没有实现按需引入样式，所以请用户**手动导入全局样式**
 
 ```js
-import { Button } from 'rc-design';
+import { Button } from '@rc-design/core';
 import 'rc-design/dist/index.css';
 ```
 

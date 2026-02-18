@@ -1,5 +1,5 @@
 // 与路由结合在一起
-import { Breadcrumb } from 'rc-design';
+import { Breadcrumb } from '@rc-design/core';
 import React from 'react';
 // import BreadcrumbItem from '../breadcrumbitem';
 

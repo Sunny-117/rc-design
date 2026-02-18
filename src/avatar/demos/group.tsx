@@ -1,4 +1,4 @@
-import { Avatar } from 'rc-design';
+import { Avatar } from '@rc-design/core';
 import React from 'react';
 import AvatarGroup from '../avatarGroup';
 

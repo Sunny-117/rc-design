@@ -1,4 +1,4 @@
-import { Button } from 'rc-design';
+import { Button } from '@rc-design/core';
 import React from 'react';
 
 export default () => (

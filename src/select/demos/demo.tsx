@@ -1,4 +1,4 @@
-import { Selector } from 'rc-design';
+import { Selector } from '@rc-design/core';
 import React from 'react';
 
 export default () => (

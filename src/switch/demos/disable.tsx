@@ -1,4 +1,4 @@
-import { Button, Switch } from 'rc-design';
+import { Button, Switch } from '@rc-design/core';
 import React, { useState } from 'react';
 const onChange = (checked: boolean) => {
   console.log(`switch to ${checked}`);

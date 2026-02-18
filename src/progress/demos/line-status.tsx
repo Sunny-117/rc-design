@@ -1,4 +1,4 @@
-import { Progress } from 'rc-design';
+import { Progress } from '@rc-design/core';
 import React from 'react';
 const Line_Status = () => {
   return (

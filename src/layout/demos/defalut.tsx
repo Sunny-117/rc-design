@@ -1,4 +1,4 @@
-import { Content, Footer, Header, Layout, Sider } from 'rc-design';
+import { Content, Footer, Header, Layout, Sider } from '@rc-design/core';
 import React from 'react';
 
 export default () => {
