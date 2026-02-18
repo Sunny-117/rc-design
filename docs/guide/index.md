@@ -21,7 +21,7 @@ npm install @rc-design/core
 
 ```js
 import { Button } from '@rc-design/core';
-import 'rc-design/dist/index.css';
+import '@rc-design/core/dist/index.css';
 ```
 
 把 Button 换成需要的组件。
