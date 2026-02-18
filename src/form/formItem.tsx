@@ -67,6 +67,7 @@ const FormItem: React.FC<FormItemProps> = (props) => {
       warnings: [],
       touched: false,
       validating: false,
+      validated: false,
       name: [],
       destroy: true,
     };
@@ -99,7 +100,7 @@ const FormItem: React.FC<FormItemProps> = (props) => {
           )}
           {children && (
             <div className="ci-form-item-content">
-              <>{children}</>
+              {children as React.ReactNode}
             </div>
           )}
         </div>

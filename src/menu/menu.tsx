@@ -93,7 +93,7 @@ const InternalMenu = forwardRef<RcMenuRef, InternalMenuProps>((props, ref) => {
         ref={ref}
         rootClassName={rootClassName}
       >
-        <>{mergedChildren}</>
+        {mergedChildren as React.ReactNode}
       </RcMenu>
     </MenuContext.Provider>
   );
