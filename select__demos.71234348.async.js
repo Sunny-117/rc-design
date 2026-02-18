@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_rc_design_core=self.webpackChunk_rc_design_core||[]).push([[714],{91836:function(u,e,_){_.r(e);var t=_(44638),s=_(67294),n=_(85893);e.default=function(){return(0,n.jsx)(t.Qf,{defaultValue:"\u9ED8\u8BA4\u503C",options:[{title:"\u9009\u9879\u4E00",value:1},{title:"\u9009\u98792",value:2}]})}}}]);
