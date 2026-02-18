@@ -1,6 +1,6 @@
 {
   "name": "@rc-design/core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "description": "rc-design 是一个基于 react 的 UI 组件库",
   "license": "MIT",
