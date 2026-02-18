@@ -1,5 +1,5 @@
 {
-  "name": "rc-design",
+  "name": "@rc-design/core",
   "version": "0.0.0",
   "private": false,
   "description": "rc-design 是一个基于 react 的 UI 组件库",
