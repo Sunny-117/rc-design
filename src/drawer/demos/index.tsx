@@ -1,4 +1,4 @@
-import Button from 'rc-design/button';
+import { Button } from '@rc-design/core';
 import React, { useState } from 'react';
 import Drawer, { Placement } from '../drawer';
 
