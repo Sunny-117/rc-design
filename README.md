@@ -17,7 +17,10 @@ npm install @rc-design/core
 请务必注意，rc-design 目前没有实现按需引入样式，所以请用户**手动导入全局样式**
 
 ```js
+// bad:
 import { Button } from '@rc-design/core';
+// good: tree-shaking
+import Button from '@rc-design/core/dist/button';
 import '@rc-design/core/dist/index.css';
 ```
 
